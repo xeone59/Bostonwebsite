@@ -1,0 +1,50 @@
+*::before, *::after{
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url(./aman-nagpal-x30o7yNusVs-unsplash.jpg);
+    background-size: cover;
+    height: 60rem;
+    background-position: center;
+    /* background-attachment: fixed; */
+    display: grid;
+    grid-template-areas: "nav nav nav"
+               "title title title"
+               "other other other";
+
+}
+
+.header__title{
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    font-size: 6rem;
+    padding-left: 2%;
+    grid-area: title;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav{
+    grid-area: nav;
+}
+
+
+.header__link{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    grid-area: other;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    /* transform: translateY(-100%);
+    transition: transform 0.3s; */
+}
+
+.header__link:hover{
+    text-decoration: underline;
+    /* transform: translateY(0%); */
+}

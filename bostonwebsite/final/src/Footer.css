@@ -1,0 +1,32 @@
+.footer{
+    background-color: rgb(0, 33, 65);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer__links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer__link {
+    color: 	mintcream;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 8px;
+  }
+  
+  .footer__delimiter {
+    color: #777;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+  
