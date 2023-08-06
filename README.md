@@ -1,5 +1,6 @@
 # Bostonwebsite
 
-￼![Image](assets/IMG_1.jpg)
+￼![Image](./Screenshot_boston.JPG)
+
 
 
